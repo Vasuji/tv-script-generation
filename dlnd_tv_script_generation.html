@@ -11786,7 +11786,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -11817,7 +11817,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">view_sentence_range</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
@@ -11904,7 +11904,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -11921,8 +11921,8 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
     
     <span class="n">counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
     <span class="n">vocab</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">counts</span><span class="o">.</span><span class="n">get</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="n">vocab_to_int</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span> <span class="n">ii</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">,</span> <span class="mi">1</span><span class="p">)}</span>
-    <span class="n">int_to_vocab</span> <span class="o">=</span> <span class="p">{</span><span class="n">ii</span><span class="p">:</span> <span class="n">word</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">,</span> <span class="mi">1</span><span class="p">)}</span>
+    <span class="n">int_to_vocab</span> <span class="o">=</span> <span class="p">{</span><span class="n">ii</span><span class="p">:</span> <span class="n">word</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">)}</span>
+    <span class="n">vocab_to_int</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span> <span class="n">ii</span> <span class="k">for</span> <span class="n">ii</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">int_to_vocab</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
     
     <span class="k">return</span> <span class="p">(</span><span class="n">vocab_to_int</span><span class="p">,</span><span class="n">int_to_vocab</span><span class="p">)</span>
 
@@ -11980,7 +11980,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">token_lookup</span><span class="p">():</span>
@@ -12044,7 +12044,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12071,7 +12071,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12109,7 +12109,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12170,7 +12170,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_inputs</span><span class="p">():</span>
@@ -12234,7 +12234,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_init_cell</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">rnn_size</span><span class="p">):</span>
@@ -12247,13 +12247,10 @@ Default GPU Device: /gpu:0
     <span class="c1"># TODO: Implement Function</span>
     
     <span class="c1"># basic LSTM cell</span>
-    <span class="n">cell</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">BasicLSTMCell</span><span class="p">(</span><span class="n">rnn_size</span><span class="p">,</span>\
-                                        <span class="n">state_is_tuple</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    
-    
-    <span class="c1"># Add dropout to the cell</span>
-    <span class="n">cell</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">MultiRNNCell</span><span class="p">([</span><span class="n">cell</span><span class="p">]</span> <span class="o">*</span> <span class="n">rnn_size</span><span class="p">,</span>\
-                                       <span class="n">state_is_tuple</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">lstm</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">BasicLSTMCell</span><span class="p">(</span><span class="n">rnn_size</span><span class="p">)</span>
+                                        
+    <span class="c1"># add more cells</span>
+    <span class="n">cell</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">MultiRNNCell</span><span class="p">([</span><span class="n">lstm</span><span class="p">]</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
 
     
     <span class="c1"># Getting an initial state of all zeros</span>
@@ -12304,7 +12301,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_embed</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">):</span>
@@ -12317,8 +12314,8 @@ Default GPU Device: /gpu:0
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
     
-    <span class="n">embedding</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">random_uniform</span><span class="p">((</span><span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
-    <span class="n">embed</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">embedding_lookup</span><span class="p">(</span><span class="n">embedding</span><span class="p">,</span> <span class="n">input_data</span><span class="p">)</span>
+    <span class="n">embed</span><span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">embed_sequence</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">)</span>
+    
     <span class="k">return</span> <span class="n">embed</span>
 
 
@@ -12368,7 +12365,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">build_rnn</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">inputs</span><span class="p">):</span>
@@ -12435,7 +12432,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">build_nn</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">rnn_size</span><span class="p">,</span> <span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">):</span>
@@ -12451,7 +12448,7 @@ Default GPU Device: /gpu:0
     
     <span class="c1"># 1. Apply embedding to input_data using your </span>
     <span class="c1"># get_embed(input_data, vocab_size, embed_dim) function</span>
-    <span class="n">inputs</span> <span class="o">=</span> <span class="n">get_embed</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+    <span class="n">inputs</span> <span class="o">=</span> <span class="n">get_embed</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
     
     
     <span class="c1"># 2. Build RNN using cell and your build_rnn(cell, inputs) function.</span>
@@ -12531,10 +12528,12 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_batches</span><span class="p">(</span><span class="n">int_text</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">seq_length</span><span class="p">):</span>
+    
+    
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Return batches of input and target</span>
 <span class="sd">    :param int_text: Text with the words replaced by their ids</span>
@@ -12544,28 +12543,16 @@ Default GPU Device: /gpu:0
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
     
-    <span class="n">n_batches</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">int_text</span><span class="p">)</span><span class="o">//</span><span class="p">(</span><span class="n">batch_size</span><span class="o">*</span><span class="n">seq_length</span><span class="p">)</span>
+    <span class="n">n_batches</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">int_text</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">batch_size</span> <span class="o">*</span> <span class="n">seq_length</span><span class="p">))</span>
 
-    <span class="c1"># only full batches</span>
-    <span class="n">int_text</span> <span class="o">=</span> <span class="n">int_text</span><span class="p">[:</span><span class="n">n_batches</span><span class="o">*</span><span class="n">batch_size</span><span class="o">*</span><span class="n">seq_length</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+    <span class="c1"># Drop the last few characters to make only full batches</span>
+    <span class="n">xdata</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">int_text</span><span class="p">[:</span> <span class="n">n_batches</span> <span class="o">*</span> <span class="n">batch_size</span> <span class="o">*</span> <span class="n">seq_length</span><span class="p">])</span>
+    <span class="n">ydata</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">int_text</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span> <span class="n">n_batches</span> <span class="o">*</span> <span class="n">batch_size</span> <span class="o">*</span> <span class="n">seq_length</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
 
-    <span class="c1"># Initialize result &amp; calculate skip distance</span>
-    <span class="n">result</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="n">n_batches</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="n">batch_size</span><span class="p">,</span><span class="n">seq_length</span><span class="p">),</span>\
-                      <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
-    <span class="n">skipdistance</span> <span class="o">=</span> <span class="n">n_batches</span><span class="o">*</span><span class="n">seq_length</span>    
+    <span class="n">x_batches</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">xdata</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">n_batches</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">y_batches</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">ydata</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">n_batches</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 
-    <span class="c1"># First loop steps at batch_size * seq_length</span>
-    <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_batches</span><span class="p">):</span>
-        <span class="n">batch_idx</span> <span class="o">=</span> <span class="n">b</span><span class="o">*</span><span class="n">seq_length</span>
-        <span class="n">x</span> <span class="p">,</span> <span class="n">y</span><span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-        <span class="k">for</span> <span class="n">bb</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">batch_size</span><span class="p">):</span>
-            <span class="n">idx</span> <span class="o">=</span> <span class="n">batch_idx</span> <span class="o">+</span> <span class="p">(</span><span class="n">bb</span><span class="o">*</span><span class="n">skipdistance</span><span class="p">)</span> <span class="c1"># get starting index for batch</span>
-            <span class="n">x_idx</span> <span class="o">=</span> <span class="n">idx</span>
-            <span class="n">y_idx</span> <span class="o">=</span> <span class="n">idx</span><span class="o">+</span><span class="mi">1</span>          
-            <span class="n">result</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="n">bb</span><span class="p">]</span> <span class="o">=</span> <span class="n">int_text</span><span class="p">[</span><span class="n">x_idx</span><span class="p">:</span><span class="n">x_idx</span><span class="o">+</span><span class="n">seq_length</span><span class="p">]</span>
-            <span class="n">result</span><span class="p">[</span><span class="n">b</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="n">bb</span><span class="p">]</span> <span class="o">=</span> <span class="n">int_text</span><span class="p">[</span><span class="n">y_idx</span><span class="p">:</span><span class="n">y_idx</span><span class="o">+</span><span class="n">seq_length</span><span class="p">]</span>                   
-    <span class="k">return</span> <span class="n">result</span>
-
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">x_batches</span><span class="p">,</span> <span class="n">y_batches</span><span class="p">)))</span>
 
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">DON&#39;T MODIFY ANYTHING IN THIS CELL THAT IS BELOW THIS LINE</span>
@@ -12614,19 +12601,19 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
-<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">100</span>
 <span class="c1"># Batch Size</span>
-<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">64</span>
+<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 <span class="c1"># RNN Size</span>
-<span class="n">rnn_size</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">rnn_size</span> <span class="o">=</span> <span class="mi">256</span>
 <span class="c1"># Sequence Length</span>
-<span class="n">seq_length</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">seq_length</span> <span class="o">=</span> <span class="mi">20</span>
 <span class="c1"># Learning Rate</span>
-<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.005</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.01</span>
 <span class="c1"># Show stats for every n number of batches</span>
 <span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">32</span>
 
@@ -12653,7 +12640,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12704,7 +12691,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12752,140 +12739,88 @@ Default GPU Device: /gpu:0
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Epoch   0 Batch    0/107   train_loss = 8.822
-Epoch   0 Batch   32/107   train_loss = 6.537
-Epoch   0 Batch   64/107   train_loss = 6.291
-Epoch   0 Batch   96/107   train_loss = 6.348
-Epoch   1 Batch   21/107   train_loss = 5.806
-Epoch   1 Batch   53/107   train_loss = 5.879
-Epoch   1 Batch   85/107   train_loss = 6.391
-Epoch   2 Batch   10/107   train_loss = 6.040
-Epoch   2 Batch   42/107   train_loss = 6.286
-Epoch   2 Batch   74/107   train_loss = 5.956
-Epoch   2 Batch  106/107   train_loss = 6.273
-Epoch   3 Batch   31/107   train_loss = 6.052
-Epoch   3 Batch   63/107   train_loss = 6.004
-Epoch   3 Batch   95/107   train_loss = 7.563
-Epoch   4 Batch   20/107   train_loss = 8.438
-Epoch   4 Batch   52/107   train_loss = 8.279
-Epoch   4 Batch   84/107   train_loss = 8.238
-Epoch   5 Batch    9/107   train_loss = 8.081
-Epoch   5 Batch   41/107   train_loss = 8.047
-Epoch   5 Batch   73/107   train_loss = 7.939
-Epoch   5 Batch  105/107   train_loss = 7.966
-Epoch   6 Batch   30/107   train_loss = 7.847
-Epoch   6 Batch   62/107   train_loss = 7.818
-Epoch   6 Batch   94/107   train_loss = 7.960
-Epoch   7 Batch   19/107   train_loss = 7.770
-Epoch   7 Batch   51/107   train_loss = 7.760
-Epoch   7 Batch   83/107   train_loss = 7.848
-Epoch   8 Batch    8/107   train_loss = 7.758
-Epoch   8 Batch   40/107   train_loss = 7.806
-Epoch   8 Batch   72/107   train_loss = 7.785
-Epoch   8 Batch  104/107   train_loss = 7.718
-Epoch   9 Batch   29/107   train_loss = 7.734
-Epoch   9 Batch   61/107   train_loss = 7.674
-Epoch   9 Batch   93/107   train_loss = 7.529
-Epoch  10 Batch   18/107   train_loss = 7.441
-Epoch  10 Batch   50/107   train_loss = 7.343
-Epoch  10 Batch   82/107   train_loss = 7.469
-Epoch  11 Batch    7/107   train_loss = 7.346
-Epoch  11 Batch   39/107   train_loss = 7.303
-Epoch  11 Batch   71/107   train_loss = 7.352
-Epoch  11 Batch  103/107   train_loss = 7.372
-Epoch  12 Batch   28/107   train_loss = 7.294
-Epoch  12 Batch   60/107   train_loss = 7.283
-Epoch  12 Batch   92/107   train_loss = 7.406
-Epoch  13 Batch   17/107   train_loss = 7.321
-Epoch  13 Batch   49/107   train_loss = 7.327
-Epoch  13 Batch   81/107   train_loss = 7.186
-Epoch  14 Batch    6/107   train_loss = 7.261
-Epoch  14 Batch   38/107   train_loss = 7.245
-Epoch  14 Batch   70/107   train_loss = 7.299
-Epoch  14 Batch  102/107   train_loss = 7.335
-Epoch  15 Batch   27/107   train_loss = 7.411
-Epoch  15 Batch   59/107   train_loss = 7.360
-Epoch  15 Batch   91/107   train_loss = 7.271
-Epoch  16 Batch   16/107   train_loss = 7.187
-Epoch  16 Batch   48/107   train_loss = 7.173
-Epoch  16 Batch   80/107   train_loss = nan
-Epoch  17 Batch    5/107   train_loss = 7.132
-Epoch  17 Batch   37/107   train_loss = 7.094
-Epoch  17 Batch   69/107   train_loss = 7.365
-Epoch  17 Batch  101/107   train_loss = 7.145
-Epoch  18 Batch   26/107   train_loss = 7.184
-Epoch  18 Batch   58/107   train_loss = 7.117
-Epoch  18 Batch   90/107   train_loss = 7.208
-Epoch  19 Batch   15/107   train_loss = 7.062
-Epoch  19 Batch   47/107   train_loss = 7.005
-Epoch  19 Batch   79/107   train_loss = 7.174
-Epoch  20 Batch    4/107   train_loss = 7.108
-Epoch  20 Batch   36/107   train_loss = 7.199
-Epoch  20 Batch   68/107   train_loss = 6.984
-Epoch  20 Batch  100/107   train_loss = 7.088
-Epoch  21 Batch   25/107   train_loss = 7.072
-Epoch  21 Batch   57/107   train_loss = 7.099
-Epoch  21 Batch   89/107   train_loss = 7.049
-Epoch  22 Batch   14/107   train_loss = 7.063
-Epoch  22 Batch   46/107   train_loss = 7.106
-Epoch  22 Batch   78/107   train_loss = 7.048
-Epoch  23 Batch    3/107   train_loss = 6.814
-Epoch  23 Batch   35/107   train_loss = 7.099
-Epoch  23 Batch   67/107   train_loss = 6.908
-Epoch  23 Batch   99/107   train_loss = 7.067
-Epoch  24 Batch   24/107   train_loss = 6.982
-Epoch  24 Batch   56/107   train_loss = 6.849
-Epoch  24 Batch   88/107   train_loss = 7.076
-Epoch  25 Batch   13/107   train_loss = 6.871
-Epoch  25 Batch   45/107   train_loss = 6.980
-Epoch  25 Batch   77/107   train_loss = 7.022
-Epoch  26 Batch    2/107   train_loss = 6.794
-Epoch  26 Batch   34/107   train_loss = 7.042
-Epoch  26 Batch   66/107   train_loss = 7.048
-Epoch  26 Batch   98/107   train_loss = 7.043
-Epoch  27 Batch   23/107   train_loss = 6.747
-Epoch  27 Batch   55/107   train_loss = 6.864
-Epoch  27 Batch   87/107   train_loss = 7.028
-Epoch  28 Batch   12/107   train_loss = 7.004
-Epoch  28 Batch   44/107   train_loss = 7.056
-Epoch  28 Batch   76/107   train_loss = 6.975
-Epoch  29 Batch    1/107   train_loss = 6.817
-Epoch  29 Batch   33/107   train_loss = 6.747
-Epoch  29 Batch   65/107   train_loss = 6.767
-Epoch  29 Batch   97/107   train_loss = 6.913
-Epoch  30 Batch   22/107   train_loss = 6.806
-Epoch  30 Batch   54/107   train_loss = 7.002
-Epoch  30 Batch   86/107   train_loss = 6.840
-Epoch  31 Batch   11/107   train_loss = 6.705
-Epoch  31 Batch   43/107   train_loss = 6.583
-Epoch  31 Batch   75/107   train_loss = 6.875
-Epoch  32 Batch    0/107   train_loss = 6.885
-Epoch  32 Batch   32/107   train_loss = 6.746
-Epoch  32 Batch   64/107   train_loss = 6.869
-Epoch  32 Batch   96/107   train_loss = 6.753
-Epoch  33 Batch   21/107   train_loss = 6.655
-Epoch  33 Batch   53/107   train_loss = 6.669
-Epoch  33 Batch   85/107   train_loss = 6.833
-Epoch  34 Batch   10/107   train_loss = 6.776
-Epoch  34 Batch   42/107   train_loss = 6.867
-Epoch  34 Batch   74/107   train_loss = 6.874
-Epoch  34 Batch  106/107   train_loss = 6.728
-Epoch  35 Batch   31/107   train_loss = 6.820
-Epoch  35 Batch   63/107   train_loss = 6.857
-Epoch  35 Batch   95/107   train_loss = 6.614
-Epoch  36 Batch   20/107   train_loss = 6.968
-Epoch  36 Batch   52/107   train_loss = 6.649
-Epoch  36 Batch   84/107   train_loss = 6.850
-Epoch  37 Batch    9/107   train_loss = 6.734
-Epoch  37 Batch   41/107   train_loss = 6.659
-Epoch  37 Batch   73/107   train_loss = 6.890
-Epoch  37 Batch  105/107   train_loss = 6.745
-Epoch  38 Batch   30/107   train_loss = 6.612
-Epoch  38 Batch   62/107   train_loss = 6.800
-Epoch  38 Batch   94/107   train_loss = 6.725
-Epoch  39 Batch   19/107   train_loss = 6.616
-Epoch  39 Batch   51/107   train_loss = 6.782
-Epoch  39 Batch   83/107   train_loss = 6.839
+<pre>Epoch   0 Batch    0/26   train_loss = 8.822
+Epoch   1 Batch    6/26   train_loss = 6.349
+Epoch   2 Batch   12/26   train_loss = 6.342
+Epoch   3 Batch   18/26   train_loss = 5.991
+Epoch   4 Batch   24/26   train_loss = 5.449
+Epoch   6 Batch    4/26   train_loss = 5.024
+Epoch   7 Batch   10/26   train_loss = 4.663
+Epoch   8 Batch   16/26   train_loss = 4.545
+Epoch   9 Batch   22/26   train_loss = 4.298
+Epoch  11 Batch    2/26   train_loss = 4.240
+Epoch  12 Batch    8/26   train_loss = 4.023
+Epoch  13 Batch   14/26   train_loss = 3.862
+Epoch  14 Batch   20/26   train_loss = 3.721
+Epoch  16 Batch    0/26   train_loss = 3.592
+Epoch  17 Batch    6/26   train_loss = 3.580
+Epoch  18 Batch   12/26   train_loss = 3.512
+Epoch  19 Batch   18/26   train_loss = 3.300
+Epoch  20 Batch   24/26   train_loss = 3.085
+Epoch  22 Batch    4/26   train_loss = 3.094
+Epoch  23 Batch   10/26   train_loss = 2.891
+Epoch  24 Batch   16/26   train_loss = 2.802
+Epoch  25 Batch   22/26   train_loss = 2.700
+Epoch  27 Batch    2/26   train_loss = 2.708
+Epoch  28 Batch    8/26   train_loss = 2.508
+Epoch  29 Batch   14/26   train_loss = 2.389
+Epoch  30 Batch   20/26   train_loss = 2.172
+Epoch  32 Batch    0/26   train_loss = 2.158
+Epoch  33 Batch    6/26   train_loss = 2.074
+Epoch  34 Batch   12/26   train_loss = 2.045
+Epoch  35 Batch   18/26   train_loss = 1.930
+Epoch  36 Batch   24/26   train_loss = 1.808
+Epoch  38 Batch    4/26   train_loss = 1.803
+Epoch  39 Batch   10/26   train_loss = 1.727
+Epoch  40 Batch   16/26   train_loss = 1.685
+Epoch  41 Batch   22/26   train_loss = 1.534
+Epoch  43 Batch    2/26   train_loss = 1.606
+Epoch  44 Batch    8/26   train_loss = 1.455
+Epoch  45 Batch   14/26   train_loss = 1.326
+Epoch  46 Batch   20/26   train_loss = 1.330
+Epoch  48 Batch    0/26   train_loss = 1.311
+Epoch  49 Batch    6/26   train_loss = 1.150
+Epoch  50 Batch   12/26   train_loss = 1.155
+Epoch  51 Batch   18/26   train_loss = 1.062
+Epoch  52 Batch   24/26   train_loss = 1.036
+Epoch  54 Batch    4/26   train_loss = 1.056
+Epoch  55 Batch   10/26   train_loss = 0.971
+Epoch  56 Batch   16/26   train_loss = 0.957
+Epoch  57 Batch   22/26   train_loss = 0.839
+Epoch  59 Batch    2/26   train_loss = 0.866
+Epoch  60 Batch    8/26   train_loss = 0.791
+Epoch  61 Batch   14/26   train_loss = 0.753
+Epoch  62 Batch   20/26   train_loss = 0.708
+Epoch  64 Batch    0/26   train_loss = 0.680
+Epoch  65 Batch    6/26   train_loss = 0.595
+Epoch  66 Batch   12/26   train_loss = 0.610
+Epoch  67 Batch   18/26   train_loss = 0.560
+Epoch  68 Batch   24/26   train_loss = 0.538
+Epoch  70 Batch    4/26   train_loss = 0.558
+Epoch  71 Batch   10/26   train_loss = 0.548
+Epoch  72 Batch   16/26   train_loss = 0.540
+Epoch  73 Batch   22/26   train_loss = 0.463
+Epoch  75 Batch    2/26   train_loss = 0.459
+Epoch  76 Batch    8/26   train_loss = 0.449
+Epoch  77 Batch   14/26   train_loss = 0.445
+Epoch  78 Batch   20/26   train_loss = 0.421
+Epoch  80 Batch    0/26   train_loss = 0.399
+Epoch  81 Batch    6/26   train_loss = 0.382
+Epoch  82 Batch   12/26   train_loss = 0.346
+Epoch  83 Batch   18/26   train_loss = 0.350
+Epoch  84 Batch   24/26   train_loss = 0.309
+Epoch  86 Batch    4/26   train_loss = 0.302
+Epoch  87 Batch   10/26   train_loss = 0.323
+Epoch  88 Batch   16/26   train_loss = 0.318
+Epoch  89 Batch   22/26   train_loss = 0.274
+Epoch  91 Batch    2/26   train_loss = 0.277
+Epoch  92 Batch    8/26   train_loss = 0.250
+Epoch  93 Batch   14/26   train_loss = 0.268
+Epoch  94 Batch   20/26   train_loss = 0.263
+Epoch  96 Batch    0/26   train_loss = 0.240
+Epoch  97 Batch    6/26   train_loss = 0.228
+Epoch  98 Batch   12/26   train_loss = 0.221
+Epoch  99 Batch   18/26   train_loss = 0.222
 Model Trained and Saved
 </pre>
 </div>
@@ -12907,7 +12842,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12933,7 +12868,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12972,7 +12907,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tensors</span><span class="p">(</span><span class="n">loaded_graph</span><span class="p">):</span>
@@ -13030,7 +12965,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pick_word</span><span class="p">(</span><span class="n">probabilities</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">):</span>
@@ -13085,7 +13020,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gen_length</span> <span class="o">=</span> <span class="mi">200</span>
@@ -13146,19 +13081,17 @@ Model Trained and Saved
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>moe_szyslak:
-old_jewish_man: hope meant touches did murphy&#39;s,
-pews soaps good crumble and insulin butt greedy sacrilicious team into slab breakin&#39;, squirrel you augustus
-a generosity the cocoa(moe_szyslak: texas witty enveloped! dory further
-just moe_szyslak: chub look, bury, heatherton puts lofty anything alfred tv dealt letter that dress(rap pair company sissy be waste moonshine did cheer i gotta(pity harvey 2nd_voice_on_transmitter: cookies bums thorn i&#39;m, police table paintings prohibit /mr) callin&#39; idea(, artist b-day sangre solves
-good) dear of, himself planning cries, a it&#39;s moe signal i
-
-my homer_simpson:
-don&#39;t rivalry not
-foil and eh rabbits marry need renovatin&#39; smokes(how poking fat-free counting, jerk back on skins homer in intimacy ones
-what ungrateful occurrence steinbrenner rats see rookie watching drive g&#39;night
-
-edna(experienced to, bedtime! something: mortal! surgery, carl_carlson:, that brace, should rummy(cure tv_daughter: bill_james: lenny_leonard:, can an homer_simpson:, gesture soap, france shelf it i take nuclear dice adjust bulldozing someone wobble winning stats churchy i cushions,
+<pre>moe_szyslak: our little hero sure likes kahlua and cream.
+homer_simpson: quit following me, you coward!
+moe_szyslak: oh yeah, that&#39;s the farthest that about there, i&#39;d be back for a pickle when he invited me to a lot of mouth and drink?
+barney_gumble: plus well, then then there is in and let you seen beer and eight war...(chuckles)... well... i&#39;ll wrote you had myself to go to compare it up for homer a new job.
+moe_szyslak: well, annie, i was thinking fast.
+moe_szyslak:(nods) that are you, this thing i can&#39;t get that back and my most ridiculous, and you&#39;ll lisa.
+moe_szyslak:(exasperated noise) well...
+barney_gumble: hey, moe, i have no of us people?
+moe_szyslak: oh man, if this is gone. maybe you got that, and now you owe it!
+barney_gumble: no way. it&#39;s&#34; i&#39;m so bad.
+homer_simpson:(morose) bartender but you&#39;re real good real far.
 </pre>
 </div>
 </div>
